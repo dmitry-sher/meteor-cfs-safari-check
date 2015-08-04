@@ -6,7 +6,6 @@ getOnImageInsert = (th) ->
 		
 		errTimeout = setTimeout ->
 			alert('upload timeout!')
-			Meteor.shared.goToSwiperPage('give')
 			return
 		, 30000
 
@@ -17,7 +16,7 @@ getOnImageInsert = (th) ->
 				if newDocument.copies && newDocument.uploadedAt
 					$('.loading').addClass 'hidden'
 					clearTimeout errTimeout
-					imagesURL = "/cfs/files/images/" + fileObj._id;
+					imagesURL =  "http://igft.org:10500/cfs/files/images/" + fileObj._id;
 					$('img').attr('src', imagesURL)
 
 openStage = ->

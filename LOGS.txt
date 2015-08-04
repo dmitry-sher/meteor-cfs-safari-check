@@ -1,0 +1,35 @@
+All builds are made with XCode Version 6.4 (6E35b)
+MacOS 10.10.4 (14E46)
+
+LOG1
+Target: ios 7
+IOS 8.3 (12F70)
+Model ME433RU/A
+
+2015-08-04 22:26:33.153 temp3[373:80890] Finished load of: http://meteor.local/
+2015-08-04 22:26:33.522 temp3[373:80890] THREAD WARNING: ['Camera'] took '362.174072' ms. Plugin should use a background thread.
+2015-08-04 22:26:33.645 temp3[373:80890] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-08-04 22:26:35.735 temp3[373:80890] {"error":"cordovaError","reason":"no image selected","message":"no image selected [cordovaError]","errorType":"Meteor.Error"}
+2015-08-04 22:26:45.169 temp3[373:80890] HTTP uploadFile
+2015-08-04 22:26:45.170 temp3[373:80890] GET FILERECORD: LJJg3tsxk4qsWTDks
+2015-08-04 22:26:45.170 temp3[373:80890] UPDATE: {"$set":{"chunkSize":2097152,"chunkCount":0,"chunkSum":2}}
+2015-08-04 22:26:45.170 temp3[373:80890] uploading chunk 0, bytes 0 to 2097152 of 2479984
+2015-08-04 22:26:45.195 temp3[373:80890] PUT to URL http://igft.org:10500/cfs/files/images/LJJg3tsxk4qsWTDks [object Object]
+2015-08-04 22:26:45.570 temp3[373:80890] GET FILERECORD: LJJg3tsxk4qsWTDks
+
+LOG2
+Target: ios 7
+iphone 5 Simulator, ios 8.4
+2015-08-04 22:30:09.176 temp3[28639:937896] Camera.getPicture: source type 1 not available.
+2015-08-04 22:30:09.213 temp3[28639:937896] {"error":"cordovaError","reason":"no camera available","message":"no camera available [cordovaError]","errorType":"Meteor.Error"}
+2015-08-04 22:30:17.233 temp3[28639:937896] HTTP uploadFile
+2015-08-04 22:30:17.233 temp3[28639:937896] GET FILERECORD: KvuNxnF3krKS43Axt
+2015-08-04 22:30:17.233 temp3[28639:937896] UPDATE: {"$set":{"chunkSize":2097152,"chunkCount":0,"chunkSum":1}}
+2015-08-04 22:30:17.233 temp3[28639:937896] uploading chunk 0, bytes 0 to 314979 of 314979
+2015-08-04 22:30:17.241 temp3[28639:937896] PUT to URL http://igft.org:10500/cfs/files/images/KvuNxnF3krKS43Axt [object Object]
+2015-08-04 22:30:17.519 temp3[28639:937896] GET FILERECORD: KvuNxnF3krKS43Axt
+2015-08-04 22:30:23.781 temp3[28639:937896] [images CHANGED] newDocument = 
+2015-08-04 22:30:23.781 temp3[28639:937896] {"createdByTransform":true,"original":{"updatedAt":"2015-08-04T19:30:17.082Z","size":314979,"type":"image/jpeg"},"_id":"KvuNxnF3krKS43Axt","uploadedAt":"2015-08-04T19:30:24.016Z","collectionName":"images"}
+2015-08-04 22:30:24.257 temp3[28639:938119] METEOR CORDOVA DEBUG loading filepath: /Users/dmitrysher/Library/Developer/CoreSimulator/Devices/60A624B8-D661-4BCF-9928-ADA78C1D6A48/data/Containers/Bundle/Application/633FFECB-0978-42DF-9A7B-BF8E8125C543/temp3.app/www/application/index.html for path: %2Fcfs%2Ffiles%2Fimages%2FKvuNxnF3krKS43Axt
+2015-08-04 22:30:24.259 temp3[28639:937896] [images CHANGED] newDocument = 
+2015-08-04 22:30:24.259 temp3[28639:937896] {"createdByTransform":true,"original":{"updatedAt":"2015-08-04T19:30:17.082Z","size":314979,"type":"image/jpeg"},"_id":"KvuNxnF3krKS43Axt","uploadedAt":"2015-08-04T19:30:24.016Z","copies":{"images":{"name":null,"type":"image/jpeg","size":285682,"key":"55c112d02d402b926d1d83de","updatedAt":"2015-08-04T19:30:24.314Z","createdAt":"2015-08-04T19:30:24.314Z"}},"collectionName":"images"}
