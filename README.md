@@ -1,6 +1,18 @@
 # meteor-cfs-safari-check
 
-This sample application shows error with file uploading on current Meteor mobile IOS builds.
+This sample application shows error with file uploading on current Meteor mobile IOS builds. Versions:
+	- Meteor 1.1.0.3
+	- aldeed:autoform        5.4.0  
+	- aldeed:collection2     2.3.1* 
+	- browser-policy         1.0.4  
+	- cfs:graphicsmagick     0.0.18 
+	- cfs:gridfs             0.0.33 
+	- cfs:standard-packages  0.5.9  
+	- coffeescript           1.0.6  
+	- iron:router            1.0.9  
+	- mdg:camera             1.1.4  
+	- mdg:geolocation        1.0.3
+	- meteor-platform        1.2.2 
 
 # Steps to reproduce
 1. Clone project
@@ -19,7 +31,7 @@ This sample application shows error with file uploading on current Meteor mobile
 
 7. Progress 'loading...' appears.
 
-8. Wait 30 seconds and times out.
+8. Wait 30 seconds and it times out.
 
 # What is working
  - shooting photo is working
