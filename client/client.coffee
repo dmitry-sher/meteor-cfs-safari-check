@@ -1,4 +1,4 @@
-getOnImageInsert = (th) ->
+onImageInsert = (th) ->
 	return (err, fileObj) ->
 		if err?
 			alert(err)
@@ -43,7 +43,7 @@ onFileChosen = (th) ->
 	FS.debug = true
 	$('.loading').removeClass 'hidden'
 	FS.Utility.eachFile event, (file) ->
-		Images.insert file, getOnImageInsert(th)
+		Images.insert file, onImageInsert
 
 Template.main.helpers
 	cordova: -> Meteor.isCordova
