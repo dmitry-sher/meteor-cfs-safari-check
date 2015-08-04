@@ -29,5 +29,8 @@ This sample application shows error with file uploading on current Meteor mobile
 # What is not working
  - choosing photo from mobile device is not working
 
+# Devices tested so far
+ - iPhone 5s IOS 8.3 ME433RU/A
+
 # Logs
 Relevant logs are included in LOGS.txt
