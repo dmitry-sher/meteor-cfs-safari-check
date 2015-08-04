@@ -1,23 +1,22 @@
-onImageInsert = (th) ->
-	return (err, fileObj) ->
-		if err?
-			alert(err)
-			return true
-		
-		errTimeout = setTimeout ->
-			alert('upload timeout!')
-			return
-		, 30000
+onImageInsert = (err, fileObj) ->
+	if err?
+		alert(err)
+		return true
+	
+	errTimeout = setTimeout ->
+		alert('upload timeout!')
+		return
+	, 30000
 
-		Images.find({_id: fileObj._id}).observe 
-			changed: (newDocument, oldDocument) ->
-				console.log('[images CHANGED] newDocument = ')
-				console.log(newDocument)
-				if newDocument.copies && newDocument.uploadedAt
-					$('.loading').addClass 'hidden'
-					clearTimeout errTimeout
-					imagesURL =  "http://igft.org:10500/cfs/files/images/" + fileObj._id;
-					$('img').attr('src', imagesURL)
+	Images.find({_id: fileObj._id}).observe 
+		changed: (newDocument, oldDocument) ->
+			console.log('[images CHANGED] newDocument = ')
+			console.log(newDocument)
+			if newDocument.copies && newDocument.uploadedAt
+				$('.loading').addClass 'hidden'
+				clearTimeout errTimeout
+				imagesURL =  "http://igft.org:10500/cfs/files/images/" + fileObj._id;
+				$('img').attr('src', imagesURL)
 
 openStage = ->
 	if  Meteor.isCordova
