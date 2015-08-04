@@ -1,6 +1,7 @@
 # meteor-cfs-safari-check
 
 This sample application shows error with file uploading on current Meteor mobile IOS builds. Versions:
+
 	- Meteor 1.1.0.3
 	- aldeed:autoform        5.4.0  
 	- aldeed:collection2     2.3.1* 
