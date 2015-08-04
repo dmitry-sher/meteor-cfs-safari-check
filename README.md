@@ -1,0 +1,1 @@
+# meteor-cfs-safari-check

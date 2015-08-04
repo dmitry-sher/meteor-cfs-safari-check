@@ -1,0 +1,24 @@
+<template name="main">
+	{{#unless cordova}}
+		<!-- loading file... -->
+		{{#autoForm id="gw_step1_form" schema=stage2_schema}}
+		<div class="fileUpload">
+		  <div class="title">Choose photo</div>
+		  <div class="choose"><input type="file" name="img" class="myFileInput"></div>
+		  <!-- <div class="btn-next">Готово</div> -->
+		</div>
+		{{/autoForm}}
+	{{/unless}}
+
+	{{#if cordova}}
+		{{#autoForm id="gw_step1_form" schema=stage2_schema}}
+		<div class="fileUpload hidden">
+		  <div class="title">Choose photo</div>
+		  <div class="choose"><input type="file" name="img" class="myFileInput"></div>
+		  <!-- <div class="btn-next">Готово</div> -->
+		</div>
+		{{/autoForm}}
+	{{/if}}
+
+	<img>
+</template>
