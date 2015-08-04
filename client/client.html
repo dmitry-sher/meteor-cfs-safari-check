@@ -1,4 +1,5 @@
 <template name="main">
+
 	{{#unless cordova}}
 		<!-- loading file... -->
 		{{#autoForm id="gw_step1_form" schema=stage2_schema}}
@@ -20,5 +21,6 @@
 		{{/autoForm}}
 	{{/if}}
 
+	<div class="loading hidden">loading...</div>
 	<img>
 </template>
