@@ -15,6 +15,13 @@ This sample application shows error with file uploading on current Meteor mobile
 	- mdg:geolocation        1.0.3
 	- meteor-platform        1.2.2 
 
+#Build environment
+	
+	XCode Version 6.4 (6E35b)
+	MacOS 10.10.4 (14E46)
+
+Application is delivered through USB cable.
+
 # Steps to reproduce
 1. Clone project
 
