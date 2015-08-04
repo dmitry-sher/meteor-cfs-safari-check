@@ -4,6 +4,7 @@ This sample application shows error with file uploading on current Meteor mobile
 
 # Steps to reproduce
 1. Clone project
+
 	git clone https://github.com/dmitry-sher/meteor-cfs-safari-check.git
 
 2. Open cloned project directory.
