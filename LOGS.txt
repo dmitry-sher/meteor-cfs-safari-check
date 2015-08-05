@@ -3,6 +3,7 @@ MacOS 10.10.4 (14E46)
 
 LOG1
 Target: ios 7
+iPhone 5s
 IOS 8.3 (12F70)
 Model ME433RU/A
 
@@ -33,3 +34,40 @@ iphone 5 Simulator, ios 8.4
 2015-08-04 22:30:24.257 temp3[28639:938119] METEOR CORDOVA DEBUG loading filepath: /Users/dmitrysher/Library/Developer/CoreSimulator/Devices/60A624B8-D661-4BCF-9928-ADA78C1D6A48/data/Containers/Bundle/Application/633FFECB-0978-42DF-9A7B-BF8E8125C543/temp3.app/www/application/index.html for path: %2Fcfs%2Ffiles%2Fimages%2FKvuNxnF3krKS43Axt
 2015-08-04 22:30:24.259 temp3[28639:937896] [images CHANGED] newDocument = 
 2015-08-04 22:30:24.259 temp3[28639:937896] {"createdByTransform":true,"original":{"updatedAt":"2015-08-04T19:30:17.082Z","size":314979,"type":"image/jpeg"},"_id":"KvuNxnF3krKS43Axt","uploadedAt":"2015-08-04T19:30:24.016Z","copies":{"images":{"name":null,"type":"image/jpeg","size":285682,"key":"55c112d02d402b926d1d83de","updatedAt":"2015-08-04T19:30:24.314Z","createdAt":"2015-08-04T19:30:24.314Z"}},"collectionName":"images"}
+
+LOG3
+Target: ios 7
+IOS 8.3 (12F70)
+Model MD297B/A
+2015-08-05 10:30:44.785 temp3[1475:504942] THREAD WARNING: ['Camera'] took '857.680176' ms. Plugin should use a background thread.
+2015-08-05 10:30:44.982 temp3[1475:504942] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-08-05 10:30:46.585 temp3[1475:504942] {"error":"cordovaError","reason":"has no access to assets","message":"has no access to assets [cordovaError]","errorType":"Meteor.Error"}
+2015-08-05 10:30:58.955 temp3[1475:504942] HTTP uploadFile
+2015-08-05 10:30:58.956 temp3[1475:504942] GET FILERECORD: Bchie4idNgfKSZbdt
+2015-08-05 10:30:58.956 temp3[1475:504942] UPDATE: {"$set":{"chunkSize":2097152,"chunkCount":0,"chunkSum":1}}
+2015-08-05 10:30:58.957 temp3[1475:504942] uploading chunk 0, bytes 0 to 98775 of 98775
+2015-08-05 10:30:58.977 temp3[1475:504942] PUT to URL http://igft.org:10500/cfs/files/images/Bchie4idNgfKSZbdt [object Object]
+2015-08-05 10:30:59.022 temp3[1475:504942] GET FILERECORD: Bchie4idNgfKSZbdt
+2015-08-05 10:31:00.252 temp3[1475:504942] [images CHANGED] newDocument = 
+2015-08-05 10:31:00.253 temp3[1475:504942] {"createdByTransform":true,"original":{"updatedAt":"2015-08-05T08:30:58.709Z","size":98775,"type":"image/jpeg"},"_id":"Bchie4idNgfKSZbdt","uploadedAt":"2015-08-05T08:31:00.163Z","collectionName":"images"}
+2015-08-05 10:31:00.551 temp3[1475:504942] [images CHANGED] newDocument = 
+2015-08-05 10:31:00.551 temp3[1475:504942] {"createdByTransform":true,"original":{"updatedAt":"2015-08-05T08:30:58.709Z","size":98775,"type":"image/jpeg"},"_id":"Bchie4idNgfKSZbdt","uploadedAt":"2015-08-05T08:31:00.163Z","copies":{"images":{"name":null,"type":"image/jpeg","size":83812,"key":"55c1c9c42d402b926d1d8401","updatedAt":"2015-08-05T08:31:00.419Z","createdAt":"2015-08-05T08:31:00.419Z"}},"collectionName":"images"}
+
+LOG4
+Target: ios 7
+IOS 8.4 (12H143)
+Model MD639LL/A
+2015-08-05 10:38:08.500 temp3[1358:149983] THREAD WARNING: ['Camera'] took '831.035156' ms. Plugin should use a background thread.
+2015-08-05 10:38:08.709 temp3[1358:149983] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-08-05 10:38:08.911 temp3[1358:149983] METEOR CORDOVA DEBUG (autoupdate_cordova.js) cordova.file.dataDirectory is null, retrying in 20ms
+2015-08-05 10:38:11.357 temp3[1358:149983] {"error":"cordovaError","reason":"has no access to assets","message":"has no access to assets [cordovaError]","errorType":"Meteor.Error"}
+2015-08-05 10:38:22.802 temp3[1358:149983] HTTP uploadFile
+2015-08-05 10:38:22.803 temp3[1358:149983] GET FILERECORD: Q96ugJ6NTCfWd8e9v
+2015-08-05 10:38:22.803 temp3[1358:149983] UPDATE: {"$set":{"chunkSize":2097152,"chunkCount":0,"chunkSum":1}}
+2015-08-05 10:38:22.804 temp3[1358:149983] uploading chunk 0, bytes 0 to 38597 of 38597
+2015-08-05 10:38:22.853 temp3[1358:149983] PUT to URL http://igft.org:10500/cfs/files/images/Q96ugJ6NTCfWd8e9v [object Object]
+2015-08-05 10:38:22.906 temp3[1358:149983] GET FILERECORD: Q96ugJ6NTCfWd8e9v
+2015-08-05 10:38:23.465 temp3[1358:149983] [images CHANGED] newDocument = 
+2015-08-05 10:38:23.465 temp3[1358:149983] {"createdByTransform":true,"original":{"updatedAt":"2015-08-05T08:38:22.594Z","size":38597,"type":"image/jpeg"},"_id":"Q96ugJ6NTCfWd8e9v","uploadedAt":"2015-08-05T08:38:23.377Z","collectionName":"images"}
+2015-08-05 10:38:23.842 temp3[1358:149983] [images CHANGED] newDocument = 
+2015-08-05 10:38:23.843 temp3[1358:149983] {"createdByTransform":true,"original":{"updatedAt":"2015-08-05T08:38:22.594Z","size":38597,"type":"image/jpeg"},"_id":"Q96ugJ6NTCfWd8e9v","uploadedAt":"2015-08-05T08:38:23.377Z","copies":{"images":{"name":null,"type":"image/jpeg","size":21318,"key":"55c1cb7f2d402b926d1d840b","updatedAt":"2015-08-05T08:38:23.622Z","createdAt":"2015-08-05T08:38:23.622Z"}},"collectionName":"images"}

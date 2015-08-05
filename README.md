@@ -50,7 +50,9 @@ Application is delivered through USB cable.
  - choosing photo from mobile device is not working
 
 # Devices tested so far
- - iPhone 5s IOS 8.3 ME433RU/A
+ - iPhone 5s IOS 8.3 A1457 ME433RU/A - not working
+ - iPhone 5 IOS 8.3 A1429 MD297B/A - working
+ - iPhone 5 IOS 8.4 A1429 MD639LL/A - working
 
 # Logs
 Relevant logs are included in LOGS.txt
